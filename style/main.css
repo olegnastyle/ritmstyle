@@ -183,7 +183,7 @@ h2.title::after {
 
 .session:hover {
     filter: brightness(1.2)drop-shadow(0 0 0.75rem #018ABE);
-    border: #018ABE solid 3px;
+    border: #018ABE solid 2px;
     transition: all .1s linear;
 }
 
@@ -408,7 +408,7 @@ h2.title::after {
 
 .new:hover {
     filter: brightness(1.2)drop-shadow(0 0 0.75rem #018ABE);
-    border: #018ABE solid 3px;
+    border: #018ABE solid 2px;
     transition: all .1s linear;
 }
 
