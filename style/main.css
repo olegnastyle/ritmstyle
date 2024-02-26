@@ -466,7 +466,6 @@ h2.title::after {
     display: flex;
     padding: 50px 60px;
     border: #018ABE solid 2px;
-    width: 100%;
     height: max-content;
     border-radius: 10px;
     gap: 50px;
