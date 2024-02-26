@@ -391,9 +391,10 @@ h2.title::after {
     flex-direction: column;
     justify-content: space-between;
     background: url(../style/img/bg-session.jpg), #018ABE80;
+    background-repeat: no-repeat;
     background-size: 100% 100%;
     background-blend-mode: color;
-    border: #0188be00 solid 3px;
+    border: #162831 solid 3px;
     text-decoration: none;
     border-radius: 10px;
     color: white;
