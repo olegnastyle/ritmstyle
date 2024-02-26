@@ -1,5 +1,5 @@
 * {margin: 0;padding: 0;}
-html, body {width: 100%;height: 100%;}
+html, body {width: 100%;height: 100%;box-sizing: border-box;}
 
 /* Подключаем шрифта Proxima Nova */
 @font-face {
@@ -17,7 +17,7 @@ body  {
     flex-direction: column;
     gap: 90px;
     background-color: #162831;
-    width: 1296px;
+    width: 1280px;
     margin: 0 auto;
     font-family: "Proxima Nova", sans-serif;
 }
@@ -38,6 +38,12 @@ nav a, .addCurse {
     color: white;
     text-decoration: none;
     font-size: 14px;
+    border-bottom: #0188be00 solid 2px;
+    transition: all .1s linear;
+}
+
+nav a:hover {
+    border-bottom: #018ABE solid 2px;
 }
 
 .addCurse {
@@ -46,6 +52,9 @@ nav a, .addCurse {
     padding: 9px 15px;
     font-size: 13px;
 }
+
+.addCurse:hover {filter: brightness(1.2);}
+.addCurse:active {filter: brightness(1);}
 
 main {
     flex: auto;
@@ -123,6 +132,7 @@ h2.title::after {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 24px;
     grid-row-gap: 24px;
+    width: 100%;
 }
 
 .session {
@@ -132,8 +142,6 @@ h2.title::after {
     background-repeat: no-repeat;
     text-decoration: none;
     color: white;
-    width: 416px;
-    height: 258px;
     display: flex;
     align-items: end;
     border-radius: 10px;
@@ -176,6 +184,7 @@ h2.title::after {
     align-items: center;
     gap: 100px;
     color: white;
+    overflow: hidden;
 }
 
 .reviews {
