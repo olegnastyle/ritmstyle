@@ -455,3 +455,43 @@ h2.title::after {
     align-items: center;
     gap: 60px;
 }
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.blog-item {
+    display: flex;
+    padding: 50px 60px;
+    border: #018ABE solid 2px;
+    width: 100%;
+    height: max-content;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+.blog-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.blog-content p {
+    opacity: .4;
+    text-wrap: wrap;
+}
+
+.blog-content a {
+    color: white;
+    padding: 10px 20px;
+    width: max-content;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #018ABE;
+}
+
+.blog-content a:hover {filter: brightness(1.2);}
+.blog-content a:active {filter: brightness(1);}
